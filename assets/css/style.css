@@ -175,6 +175,10 @@ footer {
     margin: 0;
 }
 
+#footer-details {
+    padding: 20px;
+}
+
 .cv-pdf i {
     font-size: 18px;
     color: black;
@@ -212,4 +216,16 @@ footer {
 
 .social-links li a i:hover {
     background: #1063e8;
+}
+
+
+/* three reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #1063e8;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
 }
