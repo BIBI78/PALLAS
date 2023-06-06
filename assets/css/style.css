@@ -6,8 +6,25 @@
 /* colors */
 
 .bg-color-name-title {
-    background-color: rgb(247, 197, 71);
+    background-color: rgb(251, 214, 122);
 }
+
+.ui-menu-color-home {
+    background-color: red;
+}
+
+.ui-menu-color-resume {
+    background-color: blue;
+}
+
+.ui-menu-color-contact {
+    background-color: green;
+}
+
+.ui-menu-color-download {
+    background-color: yellow;
+}
+
 
 /* heading */
 header {
@@ -18,10 +35,21 @@ header {
     margin-left: 50px;
 }
 
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+}
 
 /* logo*/
 .logo {
-    background: url(../images/vasalogo.jpg);
+    background: url(../images/pallas.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,5 +61,19 @@ header {
 }
 
 .name {
-    font-family: "Noto";
+    font-family: "Noto", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: black
+}
+
+.title {
+    font-family: "Noto",
+        sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: black;
 }
