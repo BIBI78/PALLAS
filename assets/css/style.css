@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Serif+Armenian:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+
+/* colors */
+
+.bg-color-name-title {
+    background-color: rgb(247, 197, 71);
+}
+
+/* heading */
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+
+/* logo*/
+.logo {
+    background: url(../images/vasalogo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+
+}
+
+.name {
+    font-family: "Noto";
+}
