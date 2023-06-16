@@ -19,12 +19,12 @@
 
 .bg-color-work-history {
     /* background-color: #f4f4f4; */
-    background-color: blue;
+    background-color: orange;
 }
 
 .bg-color-contact {
     /* background-color: white; */
-    background-color: green;
+    background-color: yellow;
 }
 
 .ui-menu-color-home {
@@ -32,15 +32,23 @@
 }
 
 .ui-menu-color-resume {
-    background-color: blue;
+    background-color: orange;
 }
 
 .ui-menu-color-contact {
-    background-color: green;
+    background-color: yellow;
 }
 
 .ui-menu-color-download {
-    background-color: yellow;
+    background-color: green;
+}
+
+.ui-menu-color-github {
+    background-color: blue;
+}
+
+.ui-menu-color-interests {
+    background-color: purple;
 }
 
 .row-table {
