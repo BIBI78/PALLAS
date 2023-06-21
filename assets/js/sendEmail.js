@@ -1,5 +1,7 @@
+console.log("hello");
+// service id , template id 
 function sendMail(contactForm) {
-    emailjs.send("gmail", "rosie", {
+    email.js.send("pallascv", "template_8isy6wt", {
             "from_name": contactForm.name.value,
             "from_email": contactForm.emailaddress.value,
             "project_request": contactForm.projectsummary.value
